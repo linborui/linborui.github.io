@@ -1,0 +1,27 @@
+designation = "Graduate Student"
+summary = "I am a graduate student at [Institute of Computer Science and Engineering, National Yang Ming Chiao Tung University](https://www.cs.nycu.edu.tw/intro/organization/computer-science), majoring in computer vision, machine learning, and deep learning. Currently, I am looking for a research topic for my master's thesis and looking forward to exploring these fields in depth. I am also interested in mobile phone flashing and often go to various forums for data queries and discussions."
+
+
+[section]
+  name = "About"
+  id = "about"
+  enable = true
+  weight = 1
+  showOnNavbar = true
+  template = "sections/about.html"
+
+
+[company]
+name = "National Yang Ming Chiao Tung University"
+url = "https://www.nycu.edu.tw"
+
+
+[[socialLinks]]
+  name = "Email"
+  icon = "fas fa-envelope"
+  url = "linborui28@gmail.com"
+
+[[socialLinks]]
+  name = "Github"
+  icon = "fab fa-github"
+  url = "https://www.github.com/LinBoRui"

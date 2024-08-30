@@ -1,0 +1,10 @@
+# visual studio code
+.vscode
+
+# git submodules
+node_modules
+
+# hugo generated files
+resources
+public
+themes
