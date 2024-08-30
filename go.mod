@@ -1,4 +1,4 @@
-module github.com/LinBoRui/LinBoRui.github.io
+module github.com/linborui/linborui.github.io
 
 go 1.23.0
 
