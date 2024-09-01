@@ -1,0 +1,129 @@
+[section]
+  name = "教育經歷"
+  id = "education"
+  template = "sections/education.html"
+  enable = true
+  weight = 4
+  showOnNavbar = true
+
+[[degrees]]
+  name = "資訊科學與工程所 碩士班在讀"
+  icon = "fa-microscope"
+  timeframe = "2024-現在"
+
+  [degrees.institution]
+    name = "國立陽明交通大學"
+    url = "https://www.cs.nycu.edu.tw"
+    logo = "/images/education/nycu.png"
+
+  # [degrees.grade]
+  #   scale = "CGPA"
+  #   achieved = 3.6
+  #   outOf = 4
+
+  [[degrees.publications]]
+    title = "即將公佈 ..."
+    # url = "#"
+  
+  [degrees.takenCourses]
+    showGrades = false
+    collapseAfter = 3
+
+    [[degrees.takenCourses.courses]]
+      name = "即將公佈 ..."
+
+
+[[degrees]]
+  name = "資訊工程學系 學士班畢業"
+  icon = "fa-graduation-cap"
+  timeframe = "2021-2024"
+
+  [degrees.institution]
+    name = "國立成功大學"
+    url = "https://www.ncku.edu.tw"
+    logo = "/images/education/ncku.png"
+
+  # [degrees.grade]
+  #   scale = "分數"
+  #   achieved = "*"
+  #   outOf = "*"
+
+  [degrees.takenCourses]
+    showGrades = true
+    collapseAfter = 4
+
+    [[degrees.takenCourses.courses]]
+      name = "編譯系統"
+      achieved = 100
+      outOf = 100
+
+    [[degrees.takenCourses.courses]]
+      name = "演算法"
+      achieved = 96
+      outOf = 100
+
+    [[degrees.takenCourses.courses]]
+      name = "線性代數"
+      achieved = 95
+      outOf = 100
+
+    [[degrees.takenCourses.courses]]
+      name = "計算機組織"
+      achieved = 93
+      outOf = 100
+
+    [[degrees.takenCourses.courses]]
+      name = "計算機系統管理"
+      achieved = 100
+      outOf = 100
+
+    [[degrees.takenCourses.courses]]
+      name = "微算機原理與應用"
+      achieved = 100
+      outOf = 100
+
+    [[degrees.takenCourses.courses]]
+      name = "多處理機平行程式設計"
+      achieved = 99
+      outOf = 100
+
+    [[degrees.takenCourses.courses]]
+      name = "計算理論"
+      achieved = 98
+      outOf = 100
+
+    [[degrees.takenCourses.courses]]
+      name = "無線通訊網路"
+      achieved = 98
+      outOf = 100
+
+    [[degrees.takenCourses.courses]]
+      name = "影像處理、電腦視覺及深度學習概論"
+      achieved = 98
+      outOf = 100
+
+    [[degrees.takenCourses.courses]]
+      name = "多媒體系統與應用"
+      achieved = 93
+      outOf = 100
+
+    [[degrees.takenCourses.courses]]
+      name = "數位IC設計"
+      achieved = 93
+      outOf = 100
+
+    [[degrees.takenCourses.courses]]
+      name = "最佳化理論之應用"
+      achieved = 91
+      outOf = 100
+
+
+[[degrees]]
+  name = "高中畢業"
+  icon = "fa-university"
+  timeframe = "2017-2020"
+
+  [degrees.institution]
+    name = "國立新竹高中"
+    url = "https://www.hchs.hc.edu.tw"
+    logo = "/images/education/hchs.png"

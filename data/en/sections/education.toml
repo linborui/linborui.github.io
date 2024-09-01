@@ -1,0 +1,129 @@
+[section]
+  name = "Education"
+  id = "education"
+  template = "sections/education.html"
+  enable = true
+  weight = 4
+  showOnNavbar = true
+
+[[degrees]]
+  name = "M.Sc. in Computer Science & Engineering"
+  icon = "fa-microscope"
+  timeframe = "2024-present"
+
+  [degrees.institution]
+    name = "National Yang Ming Chiao Tung University"
+    url = "https://www.cs.nycu.edu.tw"
+    logo = "/images/education/nycu.png"
+
+  # [degrees.grade]
+  #   scale = "CGPA"
+  #   achieved = 3.6
+  #   outOf = 4
+
+  [[degrees.publications]]
+    title = "Comming Soon ..."
+    # url = "#"
+
+  [degrees.takenCourses]
+    showGrades = false
+    collapseAfter = 3
+
+    [[degrees.takenCourses.courses]]
+      name = "Comming Soon ..."
+
+
+[[degrees]]
+  name = "B.Sc. in Computer Science & Engineering"
+  icon = "fa-graduation-cap"
+  timeframe = "2021-2024"
+
+  [degrees.institution]
+    name = "National Cheng Kung University"
+    url = "https://www.ncku.edu.tw"
+    logo = "/images/education/ncku.png"
+
+  # [degrees.grade]
+  #   scale = "Score"
+  #   achieved = "*"
+  #   outOf = "*"
+
+  [degrees.takenCourses]
+    showGrades = true
+    collapseAfter = 4
+
+    [[degrees.takenCourses.courses]]
+      name = "Compiler Construction" # 編譯系統
+      achieved = 100
+      outOf = 100
+
+    [[degrees.takenCourses.courses]]
+      name = "Algorithm" # 演算法
+      achieved = 96
+      outOf = 100
+
+    [[degrees.takenCourses.courses]]
+      name = "Linear Algebra" # 線性代數
+      achieved = 95
+      outOf = 100
+
+    [[degrees.takenCourses.courses]]
+      name = "Computer Organization" # 計算機組織
+      achieved = 93
+      outOf = 100
+
+    [[degrees.takenCourses.courses]]
+      name = "Computer System Administration" # 計算機系統管理
+      achieved = 100
+      outOf = 100
+
+    [[degrees.takenCourses.courses]]
+      name = "Microprocessor Principles and Applications" # 微算機原理與應用
+      achieved = 100
+      outOf = 100
+
+    [[degrees.takenCourses.courses]]
+      name = "Parallel Programming in C for Multiprocessor" # 多處理機平行程式設計
+      achieved = 99
+      outOf = 100
+
+    [[degrees.takenCourses.courses]]
+      name = "Theory of Computation" # 計算理論
+      achieved = 98
+      outOf = 100
+
+    [[degrees.takenCourses.courses]]
+      name = "Wireless Communications and Mobile Networks" # 無線通訊網路
+      achieved = 98
+      outOf = 100
+
+    [[degrees.takenCourses.courses]]
+      name = "Introducing to Image Processing, Computer Vision and Deep Learning" # 影像處理、電腦視覺及深度學習概論
+      achieved = 98
+      outOf = 100
+
+    [[degrees.takenCourses.courses]]
+      name = "Multimedia Systems and Application" # 多媒體系統與應用
+      achieved = 93
+      outOf = 100
+
+    [[degrees.takenCourses.courses]]
+      name = "Digital IC Design" # 數位IC設計
+      achieved = 93
+      outOf = 100
+
+    [[degrees.takenCourses.courses]]
+      name = "Applications of Optimization Theory" # 最佳化理論之應用
+      achieved = 91
+      outOf = 100
+
+
+[[degrees]]
+  name = "Senior High School Certificate"
+  icon = "fa-university"
+  timeframe = "2017-2020"
+
+  [degrees.institution]
+    name = "National Hsinchu Senior High School"
+    url = "https://www.hchs.hc.edu.tw"
+    logo = "/images/education/hchs.png"
