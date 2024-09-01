@@ -29,26 +29,31 @@ defaultContentLanguageInSubdir = true
   [languages.zh-tw]
     contentDir = 'content/zh-tw'
     disabled = false
-    languageCode = 'zh-TW'
+    languageCode = 'zh-tw'
     languageDirection = 'ltr'
     languageName = '繁體中文'
     weight = 2
 
 
-[Params]
+[params]
 
   background = 'images/background.jpg'
 
-  [Params.features]
-    [Params.features.darkMode]
+  [params.features]
+    [params.features.darkMode]
       enable = true
 
-    [Params.features.blog]
+    [params.features.blog]
       enable = false
 
-    [Params.features.notes]
+    [params.features.notes]
       enable = false
+
+    [params.features.flags]
+      enable = true
   
-  [Params.footer]
-    [Params.footer.newsletter]
+  [params.footer]
+    enable = true
+
+    [params.footer.newsletter]
       enable = false
