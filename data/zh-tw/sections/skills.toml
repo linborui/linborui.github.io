@@ -1,5 +1,5 @@
 [section]
-name = "Skills"
+name = "技能"
 id = "skills"
 enable = true
 weight = 2
