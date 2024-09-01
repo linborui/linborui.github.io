@@ -25,3 +25,40 @@ url = "https://www.nycu.edu.tw"
   name = "Github"
   icon = "fab fa-github"
   url = "https://www.github.com/LinBoRui"
+
+
+[[badges]]
+  type = "soft-skill-indicator"
+  name = "Curiosity"
+  percentage = 95
+  color = "blue"
+
+[[badges]]
+  type = "soft-skill-indicator"
+  name = "Optimism"
+  percentage = 90
+  color = "yellow"
+
+[[badges]]
+  type = "soft-skill-indicator"
+  name = "Adaptability"
+  percentage = 90
+  color = "green"
+
+[[badges]]
+  type = "soft-skill-indicator"
+  name = "Problem Solving"
+  percentage = 80
+  color = "orange"
+
+[[badges]]
+  type = "soft-skill-indicator"
+  name = "Confidence"
+  percentage = 80
+  color = "pink"
+
+[[badges]]
+  type = "soft-skill-indicator"
+  name = "Witty"
+  percentage = 80
+  color = "sky"
