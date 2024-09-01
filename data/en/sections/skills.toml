@@ -1,0 +1,40 @@
+[section]
+name = "Skills"
+id = "skills"
+enable = true
+weight = 2
+showOnNavbar = true
+
+[[skills]]
+name = "Python"
+logo = "/images/sections/skills/python.png"
+summary = "Proficient in Python programming. Used for web scraping, data analysis, and deep learning."
+url = "https://www.python.org/"
+
+[[skills]]
+name = "C++"
+logo = "/images/sections/skills/c++.png"
+summary = "Know basic C/C++ programming. Used for contest programming and problem solving."
+
+[[skills]]
+name = "Rust"
+logo = "/images/sections/skills/rust.png"
+summary = "Learning Rust programming. Interested in system programming and web development."
+url = "https://www.rust-lang.org/"
+
+[[skills]]
+name = "Java"
+logo = "/images/sections/skills/java.png"
+summary = "Know basic Java programming. Used for Android development and web development."
+url = "https://www.java.com/"
+
+[[skills]]
+name = "Git"
+logo = "/images/sections/skills/git.png"
+summary = "Experienced with git-based development. Frequently use Github for version control."
+url = "https://git-scm.com/"
+
+[[skills]]
+name = "Linux"
+logo = "/images/sections/skills/linux.png"
+summary = "Used Linux as the main system. Able to write bash/shell scripts."

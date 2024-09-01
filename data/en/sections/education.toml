@@ -3,7 +3,7 @@
   id = "education"
   template = "sections/education.html"
   enable = true
-  weight = 4
+  weight = 3
   showOnNavbar = true
 
 [[degrees]]
@@ -14,7 +14,7 @@
   [degrees.institution]
     name = "National Yang Ming Chiao Tung University"
     url = "https://www.cs.nycu.edu.tw"
-    logo = "/images/education/nycu.png"
+    logo = "/images/sections/education/nycu.png"
 
   # [degrees.grade]
   #   scale = "CGPA"
@@ -41,7 +41,7 @@
   [degrees.institution]
     name = "National Cheng Kung University"
     url = "https://www.ncku.edu.tw"
-    logo = "/images/education/ncku.png"
+    logo = "/images/sections/education/ncku.png"
 
   # [degrees.grade]
   #   scale = "Score"
@@ -126,4 +126,4 @@
   [degrees.institution]
     name = "National Hsinchu Senior High School"
     url = "https://www.hchs.hc.edu.tw"
-    logo = "/images/education/hchs.png"
+    logo = "/images/sections/education/hchs.png"
