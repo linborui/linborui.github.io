@@ -1,36 +1,36 @@
 [section]
-name = "技能"
-id = "skills"
-enable = true
-weight = 2
-showOnNavbar = true
+    name = "技能"
+    id = "skills"
+    enable = true
+    weight = 2
+    showOnNavbar = true
 
 [[skills]]
-name = "Python"
-logo = "/images/sections/skills/python.png"
-summary = "熟練掌握 Python 程式語言。用於網頁爬蟲、資料分析和深度學習。"
+    name = "Python"
+    logo = "/images/sections/skills/python.png"
+    summary = "熟練掌握 Python 程式語言。用於網頁爬蟲、資料分析和深度學習。"
 
 [[skills]]
-name = "C++"
-logo = "/images/sections/skills/c++.png"
-summary = "了解基本的 C/C++ 程式語言。用於競賽程式設計和問題解決。"
+    name = "C++"
+    logo = "/images/sections/skills/c++.png"
+    summary = "了解基本的 C/C++ 程式語言。用於競賽程式設計和問題解決。"
 
 [[skills]]
-name = "Rust"
-logo = "/images/sections/skills/rust.png"
-summary = "正在學習 Rust 程式語言。對系統程式設計和網頁開發感興趣。"
+    name = "Rust"
+    logo = "/images/sections/skills/rust.png"
+    summary = "正在學習 Rust 程式語言。對系統程式設計和網頁開發感興趣。"
 
 [[skills]]
-name = "Java"
-logo = "/images/sections/skills/java.png"
-summary = "了解基本的 Java 程式語言。用於 Android 開發和網頁開發。"
+    name = "Java"
+    logo = "/images/sections/skills/java.png"
+    summary = "了解基本的 Java 程式語言。用於 Android 開發和網頁開發。"
 
 [[skills]]
-name = "Git"
-logo = "/images/sections/skills/git.png"
-summary = "熟練使用基於 git 的開發。經常使用 Github 進行版本控制。"
+    name = "Git"
+    logo = "/images/sections/skills/git.png"
+    summary = "熟練使用基於 git 的開發。經常使用 Github 進行版本控制。"
 
 [[skills]]
-name = "Linux"
-logo = "/images/sections/skills/linux.png"
-summary = "曾使用 Linux 作為主要系統。能夠撰寫 bash/shell 腳本。"
+    name = "Linux"
+    logo = "/images/sections/skills/linux.png"
+    summary = "曾使用 Linux 作為主要系統。能夠撰寫 bash/shell 腳本。"
