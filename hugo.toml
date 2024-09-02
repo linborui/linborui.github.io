@@ -1,4 +1,4 @@
-baseURL = 'https://linborui.github.io/'
+baseURL = "https://linborui.github.io/"
 
 defaultContentLanguageInSubdir = true
 
@@ -20,27 +20,29 @@ defaultContentLanguageInSubdir = true
 
 [languages]
   [languages.en]
-    contentDir = 'content/en'
+    contentDir = "content/en"
     disabled = false
-    languageCode = 'en-US'
-    languageDirection = 'ltr'
-    languageName = 'English'
+    languageCode = "en-US"
+    languageDirection = "ltr"
+    languageName = "English"
     weight = 1
+    title = "Lin Bo-Rui's Personal Website"
   [languages.zh-tw]
-    contentDir = 'content/zh-tw'
+    contentDir = "content/zh-tw"
     disabled = false
-    languageCode = 'zh-tw'
-    languageDirection = 'ltr'
-    languageName = '繁體中文'
+    languageCode = "zh-tw"
+    languageDirection = "ltr"
+    languageName = "繁體中文"
     weight = 2
+    title = "林柏叡的個人網站"
 
 
 [params]
 
-  background = 'images/site/background.jpg'
+  background = "images/site/background.jpg"
 
   [params.logo]
-    favicon = 'images/site/favicon.png'
+    favicon = "images/site/favicon.png"
 
   [params.features]
     [params.features.darkMode]
