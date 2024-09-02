@@ -1,0 +1,48 @@
+[section]
+    name = "Projects"
+    id = "projects"
+    enable = true
+    weight = 4
+    showOnNavbar = true
+
+
+[[buttons]]
+    name = "All"
+    filter = "all"
+
+[[buttons]]
+    name = "Python"
+    filter = "Python"
+
+[[buttons]]
+    name = "Java"
+    filter = "Java"
+
+
+[[projects]]
+    name = "Denoising Diffusion with Deep Image Prior"
+    role = "Developer"
+    url = "https://github.com/linborui/denoising-diffusion-with-deep-image-prior"
+    summary = "Combine the Denoising Diffusion Probabilistic Model (DDPM) with the Deep Image Prior (DIP)"
+    tags = [ "Denoising Diffusion", "Deep Image Prior", "Python" ]
+
+[[projects]]
+    name = "PTT Line Bot"
+    role = "Developer"
+    url = "https://github.com/linborui/linebot-ptt-info"
+    summary = "A Line Bot that can get the latest information from PTT"
+    tags = [ "Line Bot", "PTT", "Web Scraping", "Python" ]
+
+[[projects]]
+    name = "Minesweeper in Java"
+    role = "Developer"
+    url = "https://github.com/linborui/JavaMineSweeper"
+    summary = "A simple MineSweeper game implemented in Java"
+    tags = [ "Java", "Game", "Minesweeper" ]
+
+[[projects]]
+    name = "PIC18F Microcontroller Piano Player"
+    role = "Developer"
+    url = "https://github.com/linborui/pic18f_piano"
+    summary = "A piano player using PIC18F microcontroller, and show animation with Python"
+    tags = [ "PIC18F", "Microcontroller", "Piano", "C", "Python" ]
