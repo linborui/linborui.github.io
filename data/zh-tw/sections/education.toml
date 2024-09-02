@@ -75,6 +75,9 @@
     
     [[degrees.takenCourses.courses]]
       name = "離散數學"
+    
+    [[degrees.takenCourses.courses]]
+      name = "機率與統計"
 
     [[degrees.takenCourses.courses]]
       name = "計算機組織"
