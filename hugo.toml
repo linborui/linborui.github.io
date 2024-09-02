@@ -37,7 +37,10 @@ defaultContentLanguageInSubdir = true
 
 [params]
 
-  background = 'images/background.jpg'
+  background = 'images/site/background.jpg'
+
+  [params.logo]
+    favicon = 'images/site/favicon.png'
 
   [params.features]
     [params.features.darkMode]
