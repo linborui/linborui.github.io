@@ -26,7 +26,7 @@ defaultContentLanguageInSubdir = true
     languageDirection = "ltr"
     languageName = "English"
     weight = 1
-    title = "Lin Bo-Rui's Personal Website"
+    title = "Bo-Rui's Personal Website"
   [languages.zh-tw]
     contentDir = "content/zh-tw"
     disabled = false
@@ -34,7 +34,7 @@ defaultContentLanguageInSubdir = true
     languageDirection = "ltr"
     languageName = "繁體中文"
     weight = 2
-    title = "林柏叡的個人網站"
+    title = "柏叡の個人網站"
 
 
 [params]
