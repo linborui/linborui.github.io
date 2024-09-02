@@ -49,8 +49,19 @@
   #   outOf = "*"
 
   [degrees.takenCourses]
-    showGrades = true
-    collapseAfter = 4
+    showGrades = false
+    collapseAfter = 6
+
+    [[degrees.takenCourses.courses]]
+      name = "Algorithm" # 演算法
+      achieved = 96
+      outOf = 100
+    
+    [[degrees.takenCourses.courses]]
+      name = "Data Structure" # 資料結構
+    
+    [[degrees.takenCourses.courses]]
+      name = "Operating System" # 作業系統
 
     [[degrees.takenCourses.courses]]
       name = "Compiler Construction" # 編譯系統
@@ -58,14 +69,15 @@
       outOf = 100
 
     [[degrees.takenCourses.courses]]
-      name = "Algorithm" # 演算法
-      achieved = 96
-      outOf = 100
-
-    [[degrees.takenCourses.courses]]
       name = "Linear Algebra" # 線性代數
       achieved = 95
       outOf = 100
+
+    [[degrees.takenCourses.courses]]
+      name = "Discrete Mathematics" # 離散數學
+
+    [[degrees.takenCourses.courses]]
+      name = "Probability and Statistics" # 機率與統計
 
     [[degrees.takenCourses.courses]]
       name = "Computer Organization" # 計算機組織
@@ -105,16 +117,6 @@
     [[degrees.takenCourses.courses]]
       name = "Multimedia Systems and Application" # 多媒體系統與應用
       achieved = 93
-      outOf = 100
-
-    [[degrees.takenCourses.courses]]
-      name = "Digital IC Design" # 數位IC設計
-      achieved = 93
-      outOf = 100
-
-    [[degrees.takenCourses.courses]]
-      name = "Applications of Optimization Theory" # 最佳化理論之應用
-      achieved = 91
       outOf = 100
 
 

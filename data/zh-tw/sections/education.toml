@@ -49,13 +49,8 @@
   #   outOf = "*"
 
   [degrees.takenCourses]
-    showGrades = true
-    collapseAfter = 4
-
-    [[degrees.takenCourses.courses]]
-      name = "編譯系統"
-      achieved = 100
-      outOf = 100
+    showGrades = false
+    collapseAfter = 6
 
     [[degrees.takenCourses.courses]]
       name = "演算法"
@@ -63,9 +58,23 @@
       outOf = 100
 
     [[degrees.takenCourses.courses]]
+      name = "資料結構"
+    
+    [[degrees.takenCourses.courses]]
+      name = "作業系統"
+
+    [[degrees.takenCourses.courses]]
+      name = "編譯系統"
+      achieved = 100
+      outOf = 100
+
+    [[degrees.takenCourses.courses]]
       name = "線性代數"
       achieved = 95
       outOf = 100
+    
+    [[degrees.takenCourses.courses]]
+      name = "離散數學"
 
     [[degrees.takenCourses.courses]]
       name = "計算機組織"
@@ -105,16 +114,6 @@
     [[degrees.takenCourses.courses]]
       name = "多媒體系統與應用"
       achieved = 93
-      outOf = 100
-
-    [[degrees.takenCourses.courses]]
-      name = "數位IC設計"
-      achieved = 93
-      outOf = 100
-
-    [[degrees.takenCourses.courses]]
-      name = "最佳化理論之應用"
-      achieved = 91
       outOf = 100
 
 
