@@ -13,7 +13,7 @@
 
   [degrees.institution]
     name = "國立陽明交通大學"
-    url = "https://www.cs.nycu.edu.tw"
+    url = "https://www.nycu.edu.tw/nycu/ch/index"
     logo = "/images/sections/education/nycu.png"
 
   # [degrees.grade]
@@ -40,7 +40,7 @@
 
   [degrees.institution]
     name = "國立成功大學"
-    url = "https://www.ncku.edu.tw"
+    url = "https://www.ncku.edu.tw/index.php?Lang=zh-tw"
     logo = "/images/sections/education/ncku.png"
 
   # [degrees.grade]
@@ -127,5 +127,5 @@
 
   [degrees.institution]
     name = "國立新竹高中"
-    url = "https://www.hchs.hc.edu.tw"
+    url = "https://www.hchs.hc.edu.tw/home"
     logo = "/images/sections/education/hchs.png"
