@@ -50,7 +50,7 @@
 
   [degrees.takenCourses]
     showGrades = false
-    collapseAfter = 6
+    collapseAfter = 4
 
     [[degrees.takenCourses.courses]]
       name = "Algorithm" # 演算法
