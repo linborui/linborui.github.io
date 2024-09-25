@@ -50,7 +50,7 @@
 
   [degrees.takenCourses]
     showGrades = false
-    collapseAfter = 4
+    collapseAfter = 3
 
     [[degrees.takenCourses.courses]]
       name = "Algorithm" # 演算法
@@ -69,6 +69,11 @@
       outOf = 100
 
     [[degrees.takenCourses.courses]]
+      name = "Computer Organization" # 計算機組織
+      achieved = 93
+      outOf = 100
+
+    [[degrees.takenCourses.courses]]
       name = "Linear Algebra" # 線性代數
       achieved = 95
       outOf = 100
@@ -79,45 +84,40 @@
     [[degrees.takenCourses.courses]]
       name = "Probability and Statistics" # 機率與統計
 
-    [[degrees.takenCourses.courses]]
-      name = "Computer Organization" # 計算機組織
-      achieved = 93
-      outOf = 100
+    # [[degrees.takenCourses.courses]]
+    #   name = "Computer System Administration" # 計算機系統管理
+    #   achieved = 100
+    #   outOf = 100
 
-    [[degrees.takenCourses.courses]]
-      name = "Computer System Administration" # 計算機系統管理
-      achieved = 100
-      outOf = 100
+    # [[degrees.takenCourses.courses]]
+    #   name = "Microprocessor Principles and Applications" # 微算機原理與應用
+    #   achieved = 100
+    #   outOf = 100
 
-    [[degrees.takenCourses.courses]]
-      name = "Microprocessor Principles and Applications" # 微算機原理與應用
-      achieved = 100
-      outOf = 100
+    # [[degrees.takenCourses.courses]]
+    #   name = "Parallel Programming in C for Multiprocessor" # 多處理機平行程式設計
+    #   achieved = 99
+    #   outOf = 100
 
-    [[degrees.takenCourses.courses]]
-      name = "Parallel Programming in C for Multiprocessor" # 多處理機平行程式設計
-      achieved = 99
-      outOf = 100
+    # [[degrees.takenCourses.courses]]
+    #   name = "Theory of Computation" # 計算理論
+    #   achieved = 98
+    #   outOf = 100
 
-    [[degrees.takenCourses.courses]]
-      name = "Theory of Computation" # 計算理論
-      achieved = 98
-      outOf = 100
+    # [[degrees.takenCourses.courses]]
+    #   name = "Wireless Communications and Mobile Networks" # 無線通訊網路
+    #   achieved = 98
+    #   outOf = 100
 
-    [[degrees.takenCourses.courses]]
-      name = "Wireless Communications and Mobile Networks" # 無線通訊網路
-      achieved = 98
-      outOf = 100
+    # [[degrees.takenCourses.courses]]
+    #   name = "Introducing to Image Processing, Computer Vision and Deep Learning" # 影像處理、電腦視覺及深度學習概論
+    #   achieved = 98
+    #   outOf = 100
 
-    [[degrees.takenCourses.courses]]
-      name = "Introducing to Image Processing, Computer Vision and Deep Learning" # 影像處理、電腦視覺及深度學習概論
-      achieved = 98
-      outOf = 100
-
-    [[degrees.takenCourses.courses]]
-      name = "Multimedia Systems and Application" # 多媒體系統與應用
-      achieved = 93
-      outOf = 100
+    # [[degrees.takenCourses.courses]]
+    #   name = "Multimedia Systems and Application" # 多媒體系統與應用
+    #   achieved = 93
+    #   outOf = 100
 
 
 [[degrees]]
