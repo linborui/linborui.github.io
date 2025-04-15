@@ -3,12 +3,12 @@ summary = "I am currently studying at [Institute of Computer Science and Enginee
 
 
 [section]
-  name = "About"
-  id = "about"
-  enable = true
-  weight = 1
-  showOnNavbar = true
-  template = "sections/about.html"
+name = "About"
+id = "about"
+enable = true
+weight = 1
+showOnNavbar = true
+template = "sections/about.html"
 
 
 [company]
@@ -17,48 +17,49 @@ url = "https://www.nycu.edu.tw/nycu/en/index"
 
 
 [[socialLinks]]
-  name = "Email"
-  icon = "fas fa-envelope"
-  url = "linborui28@gmail.com"
+name = "Email"
+icon = "fas fa-envelope"
+url = "linborui28@gmail.com"
 
 [[socialLinks]]
-  name = "Github"
-  icon = "fab fa-github"
-  url = "https://www.github.com/LinBoRui"
+name = "Github"
+icon = "fab fa-github"
+url = "https://www.github.com/LinBoRui"
 
 
 [[badges]]
-  type = "soft-skill-indicator"
-  name = "Curiosity"
-  percentage = 95
-  color = "blue"
+type = "soft-skill-indicator"
+name = "Curiosity"
+percentage = 95
+color = "blue"
 
 [[badges]]
-  type = "soft-skill-indicator"
-  name = "Optimism"
-  percentage = 90
-  color = "yellow"
+type = "soft-skill-indicator"
+name = "Optimism"
+percentage = 90
+color = "yellow"
 
 [[badges]]
-  type = "soft-skill-indicator"
-  name = "Adaptability"
-  percentage = 90
-  color = "green"
+type = "soft-skill-indicator"
+name = "Adaptability"
+percentage = 90
+color = "green"
 
 [[badges]]
-  type = "soft-skill-indicator"
-  name = "Problem Solving"
-  percentage = 80
-  color = "orange"
+type = "soft-skill-indicator"
+name = "Problem Solving"
+percentage = 80
+color = "orange"
 
 [[badges]]
-  type = "soft-skill-indicator"
-  name = "Confidence"
-  percentage = 80
-  color = "pink"
+type = "soft-skill-indicator"
+name = "Confidence"
+percentage = 80
+color = "pink"
 
 [[badges]]
-  type = "soft-skill-indicator"
-  name = "Witty"
-  percentage = 80
-  color = "sky"
+type = "soft-skill-indicator"
+name = "Witty"
+percentage = 80
+color = "sky"
+

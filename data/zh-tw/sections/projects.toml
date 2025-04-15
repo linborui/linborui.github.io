@@ -1,48 +1,48 @@
 [section]
-    name = "專案"
-    id = "projects"
-    enable = true
-    weight = 4
-    showOnNavbar = true
+name = "專案"
+id = "projects"
+enable = true
+weight = 4
+showOnNavbar = true
 
 
 [[buttons]]
-    name = "全部"
-    filter = "all"
+name = "全部"
+filter = "all"
 
 [[buttons]]
-    name = "Python"
-    filter = "Python"
+name = "Python"
+filter = "Python"
 
 [[buttons]]
-    name = "Java"
-    filter = "Java"
+name = "Java"
+filter = "Java"
 
 
 [[projects]]
-    name = "Denoising Diffusion with Deep Image Prior"
-    role = "開發者"
-    url = "https://github.com/linborui/denoising-diffusion-with-deep-image-prior"
-    summary = "結合去噪擴散概率模型 (DDPM) 與深度圖像先驗 (DIP)"
-    tags = [ "去噪擴散", "深度圖像先驗", "Python" ]
+name = "Denoising Diffusion with Deep Image Prior"
+role = "開發者"
+url = "https://github.com/linborui/denoising-diffusion-with-deep-image-prior"
+summary = "結合去噪擴散概率模型 (DDPM) 與深度圖像先驗 (DIP)"
+tags = ["去噪擴散", "深度圖像先驗", "Python"]
 
 [[projects]]
-    name = "PTT Line 聊天機器人"
-    role = "開發者"
-    url = "https://github.com/linborui/linebot-ptt-info"
-    summary = "一個可以從 PTT 獲取最新資訊的 Line Bot"
-    tags = [ "Line Bot", "PTT", "網頁爬蟲", "Python" ]
+name = "PTT Line 聊天機器人"
+role = "開發者"
+url = "https://github.com/linborui/linebot-ptt-info"
+summary = "一個可以從 PTT 獲取最新資訊的 Line Bot"
+tags = ["Line Bot", "PTT", "網頁爬蟲", "Python"]
 
 [[projects]]
-    name = "Java 踩地雷"
-    role = "開發者"
-    url = "https://github.com/linborui/JavaMineSweeper"
-    summary = "用 Java 實現的簡單踩地雷遊戲"
-    tags = [ "Java", "遊戲", "踩地雷" ]
+name = "Java 踩地雷"
+role = "開發者"
+url = "https://github.com/linborui/JavaMineSweeper"
+summary = "用 Java 實現的簡單踩地雷遊戲"
+tags = ["Java", "遊戲", "踩地雷"]
 
 [[projects]]
-    name = "PIC18F 微處理器 鋼琴演奏機"
-    role = "開發者"
-    url = "https://github.com/linborui/pic18f_piano"
-    summary = "使用 PIC18F 微處理器的鋼琴演奏機，並使用 Python 顯示動畫"
-    tags = [ "PIC18F", "微處理器", "鋼琴", "C", "Python" ]
+name = "PIC18F 微處理器 鋼琴演奏機"
+role = "開發者"
+url = "https://github.com/linborui/pic18f_piano"
+summary = "使用 PIC18F 微處理器的鋼琴演奏機，並使用 Python 顯示動畫"
+tags = ["PIC18F", "微處理器", "鋼琴", "C", "Python"]
