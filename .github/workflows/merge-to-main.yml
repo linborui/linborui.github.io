@@ -10,13 +10,18 @@ jobs:
   deploy-to-gh-pages:
     runs-on: ubuntu-latest
     steps:
-    # checkout to the commit that has been pushed
     - uses: actions/checkout@v7
+
+    - name: Setup Go
+      uses: actions/setup-go@v5
+      with:
+        go-version: 'stable'
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3.3.0
       with:
         hugo-version: 'latest'
+        dart-sass-version: '1.108.2'
         extended: true
 
     - name: Update Hugo Modules

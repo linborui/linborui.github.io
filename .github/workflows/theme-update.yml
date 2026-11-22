@@ -12,6 +12,11 @@ jobs:
         with:
           ref: main
 
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: 'stable'
+
       - name: Setup Node
         uses: actions/setup-node@v7
         with:
@@ -21,6 +26,7 @@ jobs:
         uses: peaceiris/actions-hugo@v3.3.0
         with:
           hugo-version: "latest"
+          dart-sass-version: '1.108.2'
           extended: true
 
       - name: Update hugo modules
